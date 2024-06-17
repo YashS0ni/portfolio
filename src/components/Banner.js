@@ -10,7 +10,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "Web Developer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -55,8 +55,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">{<h2>"Welcome to my Portfolio"</h2>}</span>
-                <h1>{`Hi! I'm Yash Soni`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer"]'><span className="wrap">{text}</span></span></h1>
-                  <p>Seeking a Web Developer role in an organization that values creativity and encourages collaboration.To work as a Web Developer for an innovative company that allows me to utilize my technical skills and knowledge.</p>
+                <h1>{`Hi! I'm Yash Soni`} <br/><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer"]'><span className="wrap">{text}</span></span></h1>
+                <p>Seeking a Web Developer role in an organization that values creativity and encourages collaboration.To work as a Web Developer for an innovative company that allows me to utilize my technical skills and knowledge.</p>
               </div>}
             </TrackVisibility>
           </Col>

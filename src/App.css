@@ -31,7 +31,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: #191919 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -92,7 +92,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background: linear-gradient(90.21deg, #cf112b -5.91%, #141121 111.58%);;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -243,12 +243,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 16px;
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  font-size: 56px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -256,7 +256,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #d0caca;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -302,9 +302,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  border-bottom: #B8B8B8;
 }
 .skill-bx {
-  background: #151515;
+  background:linear-gradient(90.21deg, #cf112b -5.91%, #141121 111.58%);;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -342,7 +343,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 100px 0;
   position: relative;
-  background-color: black;
+  background: linear-gradient(90.21deg, #141121 -5.91%, #cf112b 111.58%);
+ 
+}
+.project .container{
+ 
+  background: #191919;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
 }
 .project h2 {
 	font-size: 45px;
@@ -444,7 +454,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
 }
 .proj-txtx h4 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
@@ -455,18 +465,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
-.background-image-right {
+/* .background-image-right {
   top: 20%;
   position: absolute;
   bottom: 0;
   width: 35%;
   right: 0;
   z-index: -4;
-}
+} */
 
-/************ Projects Css ************/
+/************ contact Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #aa363a -5.91%, #141121 111.58%);
+  background: linear-gradient(90.21deg, #cf112b -5.91%, #141121 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
